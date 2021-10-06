@@ -1,0 +1,200 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: url(images/bg-mobile.png) center/cover no-repeat;
+    background-color: hsl(229, 57%, 11%);
+    color: white;
+    font-family: 'Raleway', sans-serif;
+    font-size: 14px;
+}
+
+main {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100vh;
+    width: 100%;
+}
+
+.first {
+    background-color: hsl(228, 56%, 26%);
+    border-radius: 10px 100px 10px 10px;
+    width: 90%;
+}
+
+.logo {
+    margin: 10%;
+}
+
+.icons {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 0 10% 10%;
+    width: 50%;
+}
+
+.icons div {
+    align-items: center;
+    background-color: hsl(229, 57%, 11%);
+    border-radius: 10px;
+    display: flex;
+    height: 20px;
+    justify-content: center;
+    margin-right: 20px;
+    padding: 17px;
+    width: 20px;
+}
+
+.second {
+    align-items: center;
+    background-color: hsl(228, 56%, 26%);
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    margin-top: 5%;
+    padding: 0px 0px;
+    width: 90%;
+}
+
+.text {
+    font-size: 15px;
+    margin-top: 10%;
+}
+
+.text span {
+    font-weight: 700;
+}
+
+.bar {
+    background-color: hsl(229, 57%, 11%);
+    border-radius: 20px;
+    margin-top: 5%;
+    padding: 2px;
+    width: 80%;
+}
+
+.inside-bar {
+    background-image: linear-gradient(to right, hsl(6, 100%, 80%), hsl(335, 100%, 65%));
+    border-radius: 20px;
+    display: flex;
+    justify-content: flex-end;
+    width: 80%;
+}
+
+.ball {
+    background-color: white;
+    border-radius: 100px;
+    height: 10px;
+    width: 4%;
+}
+
+.limits {
+    display: flex;
+    font-weight: 700;
+    justify-content: space-between;
+    margin: 4% 0 15% 0;
+    width: 80%;
+}
+
+.popUp {
+    background-color: white;
+    border-radius: 10px;
+    color: black;
+    font-size: 40px;
+    font-weight: 700;
+    margin-top: -30px;
+    padding: 15px 25px 15px 25px;
+    text-transform: uppercase;
+}
+
+.popUp span{
+    color: hsl(229, 7%, 55%);
+    font-size: 15px;
+    margin-left: 5px;
+    vertical-align: middle;
+}
+
+.attribution { 
+    font-size: 11px; 
+    text-align: center; 
+}
+
+.attribution a { 
+    color: hsl(228, 45%, 44%); 
+}
+
+@media (min-width: 1024px) {
+    body {
+        background-image: url(images/bg-desktop.png);
+        background-size: 100%;
+        background-position-y: 370px;
+    }
+
+    main {
+        align-content: center;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+
+    .first {
+        margin-bottom: 20px;
+        width: 25%;
+    }
+
+    .second {
+        border-radius: 15px;
+        margin-left: 2%;
+        margin-top: 40px;
+        padding: 20px;
+        width: 33%;
+    }
+
+    .text {
+        align-self: flex-start;
+        margin-left: 5%;
+        margin-top: 5%;
+    }
+
+    .bar {
+        margin-top: 3%;
+        padding: .5%;
+    }
+
+    .ball {
+        width: 3%;
+    }
+
+    .limits {
+        margin-top: 1%;
+        margin-bottom: 3%;
+    }
+
+    .popUp {
+        margin: 0;
+        position: absolute;
+        top: 270px;
+        right: 325px;
+    }
+
+    .popUp::before {
+        content: "";
+        position: absolute;
+        top: 77px;
+        left: 145px;
+        height: 40px;
+        width: 40px;
+        border-top-right-radius: 50%;
+        background: hsl(228, 56%, 26%);
+        box-shadow: 0 -23px 0 0 white;
+    }
+}
+
+
+
