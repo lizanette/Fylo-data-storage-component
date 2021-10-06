@@ -32,8 +32,8 @@ Users should be able to:
 ![](./screenshotMobile.png)
 ### Links
 
-- Solution URL: [Add solution URL here](https://www.frontendmentor.io/solutions/fylo-data-storage-component-with-html-and-css-YPvWkm7xv)
-- Live Site URL: [Add live site URL here](https://lizanette.github.io/Fylo-data-storage-component/)
+- Solution URL: (https://www.frontendmentor.io/solutions/fylo-data-storage-component-with-html-and-css-YPvWkm7xv)
+- Live Site URL: (https://lizanette.github.io/Fylo-data-storage-component/)
 
 ## My process
 
